@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.intro{
+    background: url(../img/fondo2.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+.titulo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 4rem;
+}
+.contenedor-nav{
+    width: 100%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.671);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.ul-nav{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 2rem;  
+}
+.ul-nav a{
+    margin-right: 10px;
+
+}
+.ul-nav li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,300px);
+    justify-content: space-around;
+}
+.grid-item{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgba(202, 156, 5, 0.349);
+    padding: 20px;
+   
+}
+.contenedorCard{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 80%;
+    height: 300px;
+    background: url(../img/mapache2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.tituloCard{
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    background-color: brown;
+}
+h3{
+    font-size: 2rem;
+}
+.btn-adoptar{
+    background-color: rgba(226, 147, 43, 0.822);
+    background: linear-gradient(to top, rgba(218, 151, 8, 0.911),white);
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    color: azure;
+    width: 35%;
+    height: 50%;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: brown;
+}
+.btn:hover{
+    background-color: rgb(69, 216, 11);
+}
